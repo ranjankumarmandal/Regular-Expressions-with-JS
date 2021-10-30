@@ -7,7 +7,7 @@ re = /hello/i;                      // in-sesible
 // meta character symbols
 re = /^h/i;                                               // ^ - must start with
 re = /d$/i;                                               // $ - must ends with
-re = /^world$/i;                                          // ^ $ - must begin and end with
+re = /^world$/i;                                          // ^ $ - must begin and end with - word should be exact in given sentence
 re = /w.rld/i;                                            // . - matches any character one time
 re = /w*rld/i;                                            // * - matches any character 0 or more time
 re = /gre?a?y/i;                                          // ? - optional character
